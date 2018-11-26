@@ -1,2 +1,2 @@
-# Maxwell_Holly_Portfolio
-Professional Development Repository
+# The Portfolio of Holly Maxwell
+My Professional Development Repository
