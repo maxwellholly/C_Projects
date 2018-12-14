@@ -54,8 +54,6 @@ namespace Maxwell_Holly_Final
             //initialize the main character
             Character mainCharacter = new Character(name);
 
-            Console.WriteLine(mainCharacter.Describe());
-
             //Saves the current main character to the output file 
             Save(mainCharacter.Describe());
 
@@ -68,17 +66,17 @@ namespace Maxwell_Holly_Final
             Save("\r\nSTORY END");
 
         }
-    
-        
-           public static int Randomize(string[] outputs)
-           {
-                Random randomResponse = new Random();
 
-                int index = randomResponse.Next(outputs.Length);
 
-                return index;
+        public static int Randomize(string[] outputs)
+        {
+            Random randomResponse = new Random();
 
-           }
+            int index = randomResponse.Next(outputs.Length);
+
+            return index;
+
+        }
 
         public static void Save(string toSave)
         {
@@ -94,6 +92,6 @@ namespace Maxwell_Holly_Final
 
     }
 
- 
-    
+
+
 }

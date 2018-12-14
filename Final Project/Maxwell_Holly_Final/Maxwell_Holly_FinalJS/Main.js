@@ -123,11 +123,25 @@ function Swings(){
 
 function SeeSaw(){
 
+    document.writeln("<center>Once the two of you push off of the ground, you feel a splash of water <br>and begin looking around to notice that you're no longer in the park!" +
+        "The see-saw has turned into a pirate ship and you and your dad are now in the middle of a giant bathtub...<br>" +
+        "The two of you begin to laugh and play, digging through treasure and exploring.<br>" +
+        "You spend hours playing pirates, until he says 'We should probably head home now,' <br>and just like that you're back home in a warm bath getting ready for dinner and a nap.<br></center>");
 
+    document.writeln("<br><center>THE END</center>");
 }
 
 function OpenField(){
 
+    document.writeln("<center>As you roll and laugh in the grass you see a black bunny rabbit hopping towards you.<br>" +
+        "You stay as still as possible so that you don't scare it away but the rabbit just stops and stares at you puzzled<br>" +
+        "then says 'why are you playing statue? Is there danger around?' You stare back even more puzzled.<br>" +
+        "The small black rabbit moves in closer and says 'My name is Nari, what's yours?'<br>" +
+        "'"+mainCharacter.getCharacterName()+"' you say.<br>" +
+        "'Well hello {mainCharacter.Name}, I think we're going to be good friends...I'll see you next time you come to play'<br> he said before disappearing into the nearby bushes.<br>" +
+        "Your dad comes, picks you up and says 'we better head home'.<br></center>");
+
+    document.writeln("<br><center>THE END</center>");
 
 }
 
@@ -150,6 +164,7 @@ function PlushMonkey(){
 }
 
 function Blocks(){
+
 
 
 }

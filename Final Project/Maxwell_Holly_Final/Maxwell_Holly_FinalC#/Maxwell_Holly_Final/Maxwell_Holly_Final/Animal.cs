@@ -6,13 +6,13 @@ using System.Threading.Tasks;
 
 namespace Maxwell_Holly_Final
 {
-    class Animal : Character 
+    class Animal : Character
     {
         string _species;
-        
-        public Animal(string species, string name) : base (name)
+
+        public Animal(string species, string name) : base(name)
         {
-            
+
             _species = species;
 
         }

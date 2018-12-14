@@ -13,9 +13,9 @@ namespace Maxwell_Holly_Final
             Console.Clear();
             //Initial decision presented
             //Lable used to return to this point in the code if an invalid input is stored           
-           tryAgain: Console.WriteLine("\r\n" +
-                "You wake up, cozy and snug, in your bed. \r\nAfter rubbing your eyes you notice 3 toys placed neatly beside you...a plush monkey, some blocks and a fire engine." +
-                "\r\nWhich toy will you choose?");
+            tryAgain: Console.WriteLine("\r\n" +
+                 "You wake up, cozy and snug, in your bed. \r\nAfter rubbing your eyes you notice 3 toys placed neatly beside you...a plush monkey, some blocks and a fire engine." +
+                 "\r\nWhich toy will you choose?");
 
             //Variable to capture the user's choice
             string choice = Console.ReadLine().ToLower();
@@ -35,12 +35,12 @@ namespace Maxwell_Holly_Final
                         Animal dad = new Animal("human", "dad");
                         Console.WriteLine("While playing with your new monkey friend you hear footsteps approaching the door to your room.\r\nYour door opens and in walks your dad with your coat and boots.\r\n'It's time to head to the park!' he exclaims.\r\n");
 
-                        Console.WriteLine("He helps you get bundled and the two of your head off.\r\n");
+                        Console.WriteLine("He helps you get bundled and the two of you head off.\r\n");
 
                         Console.WriteLine("Once at the park, you see all of your favorite places to play...the swings, the see-saw, and of course the open field...\r\n");
-                        
+
                         //Lable used to return to this point in the code if an invalid input is stored
-                        tryAgain2:  Console.WriteLine("Which part of the park do you want to play in?");
+                        tryAgain2: Console.WriteLine("Which part of the park do you want to play in?");
                         string response = Console.ReadLine().ToLower();
 
                         switch (response)
@@ -69,7 +69,8 @@ namespace Maxwell_Holly_Final
 
                                     Console.ReadKey();
 
-                                }break;
+                                }
+                                break;
                             case "see-saw":
                             case "see saw":
                             case "seesaw":
@@ -103,7 +104,7 @@ namespace Maxwell_Holly_Final
                                         "then says 'why are you playing statue? Is there danger around?' You stare back even more puzzled.\r\n" +
                                         "The small black rabbit moves in closer and says 'My name is Nari, what's yours?'\r\n" +
                                         $"'{mainCharacter.Name}' you say.\r\n" +
-                                        $"'Well hello {mainCharacter.Name}, I think we're going to be good friends...I'll see you next time you come to play'\r\n he said before dissappearing into the nearby bushes.\r\n" +
+                                        $"'Well hello {mainCharacter.Name}, I think we're going to be good friends...I'll see you next time you come to play'\r\n he said before disappearing into the nearby bushes.\r\n" +
                                         $"Your dad comes, picks you up and says 'we better head home'.\r\n");
 
                                     rabbit.Name = "Nari";
@@ -115,14 +116,16 @@ namespace Maxwell_Holly_Final
                                     Console.ReadKey();
                                 }
                                 break;
-                            default: Console.WriteLine("\r\nThat doesn't exist here, pick one of the areas to play in this park.\r\n");
-                                
+                            default:
+                                Console.WriteLine("\r\nThat doesn't exist here, pick one of the areas to play in this park.\r\n");
+
                                 //goto calls on the appropriate label to return to
                                 goto tryAgain2;
                         }
 
 
-                    }break;
+                    }
+                    break;
                 case "blocks":
                 case "some blocks":
                     {
@@ -146,7 +149,8 @@ namespace Maxwell_Holly_Final
 
                         Console.ReadKey();
 
-                    }break;
+                    }
+                    break;
                 case "fire engine":
                 case "engine":
                     {

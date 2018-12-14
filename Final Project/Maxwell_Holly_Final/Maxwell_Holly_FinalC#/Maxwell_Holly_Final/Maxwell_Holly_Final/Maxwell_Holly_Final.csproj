@@ -4,7 +4,7 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{8576B9E1-B3AD-407C-A471-DEE43FA6CBEB}</ProjectGuid>
+    <ProjectGuid>{996B87EE-146D-4327-84BD-A8DA64943DF1}</ProjectGuid>
     <OutputType>Exe</OutputType>
     <RootNamespace>Maxwell_Holly_Final</RootNamespace>
     <AssemblyName>Maxwell_Holly_Final</AssemblyName>
