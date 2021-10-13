@@ -1,2 +1,2 @@
-# The Portfolio of Holly Maxwell
-My Professional Development Repository
+# C# Projects by Holly Maxwell
+C# project repository of projects completed at Full Sail University
